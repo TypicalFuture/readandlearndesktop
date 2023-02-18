@@ -120,12 +120,12 @@ namespace Read_and_Learn.Forms
             this.label3.AutoEllipsis = false;
             this.label3.Cursor = System.Windows.Forms.Cursors.Default;
             this.label3.CursorType = System.Windows.Forms.Cursors.Default;
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 13F);
+            this.label3.Font = new System.Drawing.Font("Georgia", 13F);
             this.label3.Location = new System.Drawing.Point(320, 96);
             this.label3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.label3.Name = "label3";
             this.label3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label3.Size = new System.Drawing.Size(228, 92);
+            this.label3.Size = new System.Drawing.Size(220, 82);
             this.label3.TabIndex = 8;
             this.label3.Text = "Ваше имя:\r\nВаша группа:";
             this.label3.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
