@@ -25,6 +25,6 @@ namespace Read_and_Learn.Variable
     }
     class crypto
     {
-        public static ushort secretKey = 0x00005;
+        public static ushort secretKey = 0x00005; //Secret key
     }
 }
