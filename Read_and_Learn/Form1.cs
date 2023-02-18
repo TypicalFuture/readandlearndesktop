@@ -50,10 +50,21 @@ namespace Read_and_Learn
                 while (i < count_user1)
                 {
                     i++;
+                    MySqlCommand query10 = new MySqlCommand("SELECT login FROM user_table WHERE id_user =" + i, mycon);
                     MySqlCommand query11 = new MySqlCommand("SELECT email FROM user_table WHERE id_user =" + i, mycon);
                     MySqlCommand query12 = new MySqlCommand("SELECT password FROM user_table WHERE id_user =" + i, mycon);
-                    if (login == query11.ExecuteScalar().ToString() && password == query12.ExecuteScalar().ToString())
+                    if (login == query10.ExecuteScalar().ToString() && password == query12.ExecuteScalar().ToString())
                     {
+                        Variable.global.id_user = i;
+                        login = null;
+                        password = null;
+                        i = 0;
+                        count_user1 = 0;
+                        break;
+                    }
+                    else if (login == query11.ExecuteScalar().ToString() && password == query12.ExecuteScalar().ToString())
+                    {
+                        
                         Variable.global.id_user = i;
                         login = null;
                         password = null;
