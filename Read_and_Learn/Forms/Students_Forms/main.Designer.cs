@@ -59,9 +59,10 @@ namespace Read_and_Learn.Forms
             this.panel2.GradientTopLeft = System.Drawing.Color.White;
             this.panel2.GradientTopRight = System.Drawing.Color.White;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.panel2.Name = "panel2";
             this.panel2.Quality = 10;
-            this.panel2.Size = new System.Drawing.Size(934, 554);
+            this.panel2.Size = new System.Drawing.Size(1868, 1065);
             this.panel2.TabIndex = 5;
             // 
             // bunifuPanel1
@@ -73,10 +74,11 @@ namespace Read_and_Learn.Forms
             this.bunifuPanel1.BorderRadius = 30;
             this.bunifuPanel1.BorderThickness = 1;
             this.bunifuPanel1.Controls.Add(this.label4);
-            this.bunifuPanel1.Location = new System.Drawing.Point(546, 12);
+            this.bunifuPanel1.Location = new System.Drawing.Point(1092, 23);
+            this.bunifuPanel1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.ShowBorders = true;
-            this.bunifuPanel1.Size = new System.Drawing.Size(376, 266);
+            this.bunifuPanel1.Size = new System.Drawing.Size(752, 512);
             this.bunifuPanel1.TabIndex = 11;
             this.bunifuPanel1.Visible = false;
             // 
@@ -85,9 +87,10 @@ namespace Read_and_Learn.Forms
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(13, 15);
+            this.label4.Location = new System.Drawing.Point(26, 29);
+            this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(116, 23);
+            this.label4.Size = new System.Drawing.Size(224, 43);
             this.label4.TabIndex = 6;
             this.label4.Text = "Расписание";
             // 
@@ -104,10 +107,11 @@ namespace Read_and_Learn.Forms
             this.bunifuPanel3.Controls.Add(this.label2);
             this.bunifuPanel3.Controls.Add(this.pictureBox1);
             this.bunifuPanel3.Controls.Add(this.label1);
-            this.bunifuPanel3.Location = new System.Drawing.Point(12, 12);
+            this.bunifuPanel3.Location = new System.Drawing.Point(24, 23);
+            this.bunifuPanel3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.bunifuPanel3.Name = "bunifuPanel3";
             this.bunifuPanel3.ShowBorders = true;
-            this.bunifuPanel3.Size = new System.Drawing.Size(527, 266);
+            this.bunifuPanel3.Size = new System.Drawing.Size(1054, 512);
             this.bunifuPanel3.TabIndex = 10;
             // 
             // label3
@@ -117,10 +121,11 @@ namespace Read_and_Learn.Forms
             this.label3.Cursor = System.Windows.Forms.Cursors.Default;
             this.label3.CursorType = System.Windows.Forms.Cursors.Default;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 13F);
-            this.label3.Location = new System.Drawing.Point(160, 50);
+            this.label3.Location = new System.Drawing.Point(320, 96);
+            this.label3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.label3.Name = "label3";
             this.label3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label3.Size = new System.Drawing.Size(111, 46);
+            this.label3.Size = new System.Drawing.Size(228, 92);
             this.label3.TabIndex = 8;
             this.label3.Text = "Ваше имя:\r\nВаша группа:";
             this.label3.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -131,9 +136,10 @@ namespace Read_and_Learn.Forms
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(160, 134);
+            this.label5.Location = new System.Drawing.Point(320, 258);
+            this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(131, 23);
+            this.label5.Size = new System.Drawing.Size(259, 43);
             this.label5.TabIndex = 7;
             this.label5.Text = "Мой куратор:";
             // 
@@ -142,18 +148,20 @@ namespace Read_and_Learn.Forms
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(17, 15);
+            this.label2.Location = new System.Drawing.Point(34, 29);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(113, 23);
+            this.label2.Size = new System.Drawing.Size(227, 43);
             this.label2.TabIndex = 6;
             this.label2.Text = "Моя группа";
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(34, 41);
+            this.pictureBox1.Location = new System.Drawing.Point(68, 79);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(120, 120);
+            this.pictureBox1.Size = new System.Drawing.Size(240, 231);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
@@ -161,22 +169,25 @@ namespace Read_and_Learn.Forms
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label1.Font = new System.Drawing.Font("Georgia", 9F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label1.Location = new System.Drawing.Point(310, 238);
+            this.label1.Location = new System.Drawing.Point(620, 458);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(201, 15);
+            this.label1.Size = new System.Drawing.Size(373, 29);
             this.label1.TabIndex = 4;
             this.label1.Text = "Изменить персоналные данные";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(934, 554);
+            this.ClientSize = new System.Drawing.Size(1868, 1065);
             this.Controls.Add(this.panel2);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "main";
             this.Text = "main";
             this.Load += new System.EventHandler(this.main_Load);
